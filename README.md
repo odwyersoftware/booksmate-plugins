@@ -1,11 +1,14 @@
 # Booksmate
 
-AI bookkeeping for invoices and receipts, wired into your agent.
+Fetch invoices and receipts from email and supplier portals, then work them
+in chat.
 
-Booksmate stores your financial documents, extracts the fields with AI, and
-exports them to Xero or Google Drive. This plugin connects an agent to a
-Booksmate account through the hosted MCP server at
-[mcp.booksmate.com](https://mcp.booksmate.com). Ask for last month's Amazon
+Booksmate pulls documents from connected Gmail and Microsoft mailboxes, and
+from supplier web portals via the Booksmate desktop app. It extracts fields
+with AI and exports to Xero or Google Drive. This plugin connects an agent to
+your account through the hosted MCP server at
+[mcp.booksmate.com](https://mcp.booksmate.com). Email ingestion runs here.
+Web portal fetching stays on the desktop app. Ask for last month's Amazon
 invoices and you get the real rows out of your account, not a guess.
 
 ## Install

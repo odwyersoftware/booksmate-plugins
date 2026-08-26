@@ -2,7 +2,7 @@
   "name": "booksmate",
   "displayName": "Booksmate",
   "version": "1.0.0",
-  "description": "Booksmate helps users search, summarise, upload, and export invoices and receipts. Users can query spend by category or vendor, find duplicate payments, trigger email ingestion from Gmail or Microsoft, upload documents for AI extraction, and export financial records to Xero or Google Drive.",
+  "description": "Booksmate fetches invoices and receipts from email and supplier web portals, then helps you search, summarise, upload, and export them. Query spend by category or vendor, find duplicate payments, ingest from Gmail or Microsoft, upload documents for AI extraction, and export to Xero or Google Drive. Email fetching works in this plugin; web portal fetching requires the Booksmate desktop app.",
   "author": {
     "name": "Booksmate",
     "email": "richard@booksmate.com"
@@ -15,6 +15,8 @@
     "mcp",
     "invoices",
     "receipts",
+    "fetching",
+    "email",
     "bookkeeping",
     "accounting",
     "xero",
