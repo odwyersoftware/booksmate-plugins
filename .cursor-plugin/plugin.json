@@ -2,7 +2,7 @@
   "name": "booksmate",
   "displayName": "Booksmate",
   "version": "1.0.0",
-  "description": "AI bookkeeping for invoices and receipts. Search your documents, upload files for extraction, spot duplicate payments, and export to Xero or Google Drive.",
+  "description": "Booksmate helps users search, summarise, upload, and export invoices and receipts. Users can query spend by category or vendor, find duplicate payments, trigger email ingestion from Gmail or Microsoft, upload documents for AI extraction, and export financial records to Xero or Google Drive.",
   "author": {
     "name": "Booksmate",
     "email": "richard@booksmate.com"
