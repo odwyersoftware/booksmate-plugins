@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "AI bookkeeping for invoices and receipts. Search your documents, upload files for extraction, spot duplicate payments, and export to Xero or Google Drive.",
   "author": {
-    "name": "O'Dwyer Software",
-    "email": "support@booksmate.com"
+    "name": "Booksmate",
+    "email": "richard@booksmate.com"
   },
   "homepage": "https://booksmate.com",
   "repository": "https://github.com/odwyersoftware/booksmate-plugins",

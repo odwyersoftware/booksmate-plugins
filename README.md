@@ -73,7 +73,7 @@ This repository is a build artifact. Its contents are generated from the
 Booksmate source repository and pushed here by CI. Direct edits to
 `.cursor-plugin/`, `mcp.json`, `skills/`, `assets/`, and this README get
 overwritten on the next sync. File issues and suggestions at
-[booksmate.com](https://booksmate.com) or email support@booksmate.com.
+[booksmate.com](https://booksmate.com) or email richard@booksmate.com.
 
 ## License
 
