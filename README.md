@@ -27,6 +27,16 @@ Add the server URL `https://mcp.booksmate.com` as an MCP connector. The
 skills in this repo are plain `skills/*/SKILL.md` files, so any agent that
 reads skill directories can use them alongside the connector.
 
+### Claude Code
+
+Clone https://github.com/odwyersoftware/booksmate-plugins and start Claude
+Code with `claude --plugin-dir booksmate-plugins/claude`.
+
+That flag loads the `claude/` directory for the session. It ships a
+`.mcp.json` pointing at the hosted server over streamable HTTP. The server
+entry sets `"type": "http"`, which Claude Code requires on a URL. There is
+nothing else to configure.
+
 ### Any other MCP client
 
 Point the client at `https://mcp.booksmate.com`. The transport is streamable
@@ -74,8 +84,9 @@ Full documentation lives at
 
 This repository is a build artifact. Its contents are generated from the
 Booksmate source repository and pushed here by CI. Direct edits to
-`.cursor-plugin/`, `mcp.json`, `skills/`, `assets/`, and this README get
-overwritten on the next sync. File issues and suggestions at
+`.cursor-plugin/`, `mcp.json`, `skills/`, `assets/`, `grok/`, `claude/`,
+and this README get overwritten on the next sync. File issues and
+suggestions at
 [booksmate.com](https://booksmate.com) or email richard@booksmate.com.
 
 ## License
