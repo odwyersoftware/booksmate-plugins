@@ -47,7 +47,7 @@ HTTP.
 There is no API key. Authentication is OAuth 2.1 with dynamic client
 registration, so the first tool call opens a browser for consent. Approve it
 once and the client holds the token from then on. If you have no Booksmate
-account yet, sign up at [booksmate.com](https://booksmate.com) first.
+account yet, sign up at [booksmate.com](https://booksmate.com/?utm_source=github&utm_medium=referral&utm_campaign=mcp_plugin) first.
 
 Revoke access any time from your Booksmate account settings.
 
@@ -78,7 +78,7 @@ Seven skills teach the agent how to drive the tools well.
 ## Docs
 
 Full documentation lives at
-[booksmate.com/docs/features/mcp-server/](https://booksmate.com/docs/features/mcp-server/).
+[booksmate.com/docs/features/mcp-server/](https://booksmate.com/docs/features/mcp-server/?utm_source=github&utm_medium=referral&utm_campaign=mcp_plugin).
 
 ## About this repository
 
@@ -87,7 +87,7 @@ Booksmate source repository and pushed here by CI. Direct edits to
 `.cursor-plugin/`, `mcp.json`, `skills/`, `assets/`, `grok/`, `claude/`,
 and this README get overwritten on the next sync. File issues and
 suggestions at
-[booksmate.com](https://booksmate.com) or email richard@booksmate.com.
+[booksmate.com](https://booksmate.com/?utm_source=github&utm_medium=referral&utm_campaign=mcp_plugin) or email richard@booksmate.com.
 
 ## License
 

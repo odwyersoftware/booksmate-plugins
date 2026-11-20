@@ -35,7 +35,7 @@ next to `.mcp.json`.
 There is no API key. Authentication is OAuth 2.1 with dynamic client
 registration, so the first tool call opens a browser for consent. Approve it
 once and the client holds the token from then on. If you have no Booksmate
-account yet, sign up at [booksmate.com](https://booksmate.com) first.
+account yet, sign up at [booksmate.com](https://booksmate.com/?utm_source=claude&utm_medium=plugin_directory&utm_campaign=mcp_plugin) first.
 
 Revoke access any time from your Booksmate account settings.
 
@@ -81,7 +81,7 @@ Seven skills teach the agent how to drive the tools well.
 ## Docs
 
 Full documentation lives at
-[booksmate.com/docs/features/mcp-server/](https://booksmate.com/docs/features/mcp-server/).
+[booksmate.com/docs/features/mcp-server/](https://booksmate.com/docs/features/mcp-server/?utm_source=claude&utm_medium=plugin_directory&utm_campaign=mcp_plugin).
 
 ## About this directory
 
@@ -89,7 +89,7 @@ This `claude/` tree is the Claude Code surface of the `booksmate-plugins`
 artifact repository. Its contents, including `skills/` and `assets/`, are
 generated from the Booksmate source repository and pushed here by CI, so
 direct edits get overwritten on the next sync. File issues and suggestions
-at [booksmate.com](https://booksmate.com) or email richard@booksmate.com.
+at [booksmate.com](https://booksmate.com/?utm_source=claude&utm_medium=plugin_directory&utm_campaign=mcp_plugin) or email richard@booksmate.com.
 
 ## License
 
