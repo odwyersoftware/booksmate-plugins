@@ -15,20 +15,11 @@ Booksmate desktop app, because portals need a real browser session.
 
 ## Install
 
-Clone the public plugin repository and load this directory in Claude Code:
+Follow [Claude Code's plugin installation instructions][plugin-install] and
+select the `claude/` folder from the public plugin repository. The manifest
+configures the hosted MCP server over streamable HTTP.
 
-```shell
-git clone https://github.com/odwyersoftware/booksmate-plugins.git
-claude --plugin-dir booksmate-plugins/claude
-```
-
-`--plugin-dir` loads the plugin for that session. The plugin ships a
-`.mcp.json` at this directory root pointing at the hosted server over
-streamable HTTP. The server entry sets `"type": "http"`, which Claude Code
-requires on a URL. There is nothing else to configure.
-
-Only `plugin.json` belongs in `.claude-plugin/`. Skills stay in `skills/`
-next to `.mcp.json`.
+Only `plugin.json` belongs in `.claude-plugin/`. Skills stay in `skills/`.
 
 ## Sign in
 
@@ -94,3 +85,5 @@ at [booksmate.com](https://booksmate.com/?utm_source=claude&utm_medium=plugin_di
 ## License
 
 MIT.
+
+[plugin-install]: https://code.claude.com/docs/en/plugins/overview
