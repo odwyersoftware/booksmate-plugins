@@ -30,9 +30,9 @@ reads skill directories can use them alongside the connector.
 ### Claude Code
 
 Clone https://github.com/odwyersoftware/booksmate-plugins and start Claude
-Code with `claude --plugin-dir booksmate-plugins/claude`.
+Code with `claude --plugin-dir booksmate-plugins`.
 
-That flag loads the `claude/` directory for the session. It ships a
+That flag loads the repository root for the session. It ships a
 `.mcp.json` pointing at the hosted server over streamable HTTP. The server
 entry sets `"type": "http"`, which Claude Code requires on a URL. There is
 nothing else to configure.
