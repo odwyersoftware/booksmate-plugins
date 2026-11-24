@@ -80,6 +80,12 @@ Seven skills teach the agent how to drive the tools well.
 Full documentation lives at
 [booksmate.com/docs/features/mcp-server/](https://booksmate.com/docs/features/mcp-server/?utm_source=github&utm_medium=referral&utm_campaign=mcp_plugin).
 
+## Download packages
+
+Download the latest platform packages from the
+[GitHub Releases page](https://github.com/odwyersoftware/booksmate-plugins/releases/latest).
+The release includes separate ZIP files for Cursor, Claude, Grok, and OpenAI.
+
 ## About this repository
 
 This repository is a build artifact. Its contents are generated from the
